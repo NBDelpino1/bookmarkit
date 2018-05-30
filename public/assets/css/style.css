@@ -1,0 +1,117 @@
+body {
+    height:100%;
+    width:100%;
+    font-size:16px;
+    font-weight:200;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight:200;
+}
+
+.jumbotron {
+    background: url(../images/banner2.svg)no-repeat center center scroll;
+    background-size: cover;
+}
+
+.btn {
+    width:200px;
+    height:50px;
+    border:0;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    border-radius:30px;
+    font-size:12px;
+    font-weight:200;
+    color: #fff;
+    padding-top:17px;
+    margin-right:10px;
+    margin-bottom:5px;
+}
+
+.btn:hover {
+    opacity: .9;
+}
+
+.btn.btn-new-articles {
+    background: #61D1FF; /* For browsers that do not support gradients */
+    background: linear-gradient(to top left, #61D1FF, #4AB39C);
+}
+
+.btn.btn-saved-articles, .btn.btn-save-an-article, .btn.btn-save-a-note,
+.btn.btn-home , .btn.btn-see-article-note, .btn-primary {
+    background: #8969FE; /* For browsers that do not support gradients */
+    background: linear-gradient(to top left, #3DA3D0, #8969FE);
+}
+
+.btn.btn-delete-article {
+    background: #E65A5A; /* For browsers that do not support gradients */
+    background: linear-gradient(to top left, #E65A5A, #9A30B2);
+}
+
+.note-delete {
+    background: #E65A5A; /* For browsers that do not support gradients */
+    background: linear-gradient(to top left, #E65A5A, #9A30B2);
+    width:50px;
+    padding-bottom:15px;
+}
+
+.date-text {
+    font-size:12px;
+}
+
+.logo {
+    margin-bottom:25px;
+}
+
+/* Save Article modal styling */
+
+.article-headline {
+    color: #3f51b5;
+}
+
+/* user enters their note here */
+textarea {
+    width:100%;
+    border: 1px solid #dddddd;
+}
+
+.arrow-up-gliph {
+    font-size:40px;
+    color: #000;
+}
+
+
+
+
+/*#exampleModalCenter {*/
+   /*background: rgba(137, 105, 254, 0.49);*/
+/*}*/
+
+
+
+/* Depracated Styling */
+
+/*!* name of the site being viewed text styles desktop *!*/
+/*.sitename-being-viewed-text {*/
+/*margin-top:15px;*/
+/*!*font-size:15px;*!*/
+/*display: inline;*/
+/*}*/
+
+/*!*  name of the site being viewed text styles - mobile portrait *!*/
+/*@media screen and (max-width: 480px) {*/
+/*.sitename-being-viewed-text {*/
+/*font-size:10px;*/
+/*}*/
+/*}*/
+
+/*!* name of the site being viewed text styles - mobile landscape *!*/
+/*@media screen and (max-width: 668px) {*/
+/*.sitename-being-viewed-text {*/
+/*font-size:10px;*/
+/*}*/
+/*}*/
+
+/* Depracated Styling */

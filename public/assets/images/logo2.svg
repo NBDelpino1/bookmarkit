@@ -1,0 +1,38 @@
+
+<svg width="208px" height="237px" viewBox="0 0 208 237" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#896AFE" offset="0%"></stop>
+            <stop stop-color="#3AA4D0" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="200" height="200" rx="20"></rect>
+        <filter x="-3.5%" y="-2.5%" width="107.0%" height="107.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-73" transform="translate(4.000000, 2.000000)">
+            <g id="Group-72">
+                <g id="Rectangle-5">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+                <text id="BM" font-family="GurmukhiSangamMN, Gurmukhi Sangam MN" font-size="72" font-weight="normal" letter-spacing="0.06272675" fill="#000000">
+                    <tspan x="52.3052732" y="118">BM</tspan>
+                </text>
+                <text id="Bookmark-It" font-family="GurmukhiSangamMN, Gurmukhi Sangam MN" font-size="11" font-weight="normal" letter-spacing="0.05575711" fill="#000000">
+                    <tspan x="71.8363359" y="145">Bookmark It</tspan>
+                </text>
+            </g>
+            <g id="YOUR-NEWS-FEED-ON-DE" transform="translate(31.000000, 225.000000)" fill="#000000" font-family="GurmukhiSangamMN-Bold, Gurmukhi Sangam MN" font-size="10" font-weight="bold">
+                <text id="YOUR-NEWS-FEED-ON-DEMAND">
+                    <tspan x="0.3603556" y="9">YOUR NEWS FEED ON DEMAND</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

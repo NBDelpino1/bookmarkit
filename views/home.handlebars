@@ -1,0 +1,32 @@
+<!-- Purpose of file: this is what will render inside the body (Main.handlebars) when the user is viewing the homepage -->
+<div class="jumbotron text-center">
+  <p class="text-right"><span id="spanDate" class="date-text"></span></p>
+  <img src="../../assets/images/logo2.svg" class="logo">
+  <br>
+  <a class="btn btn-new-articles scrape-new" href="#" role="button">New Articles</a>
+  <a class="btn btn-saved-articles" href="/saved" role="button">Saved Articles</a>
+</div>
+<div class="article-container">
+    <!-- Content will populate here -->
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <img src="../../assets/images/action-completed.svg" class="modal-image">
+                <br>
+                <p class="text-center modal-text">Saved!</p>
+            </div>
+        </div>
+  </div>
+</div>
+
+<!-- JavaScript file that dynamically populates everything that is in the saved in the headlines section of the database -->
+
+<script src="../../assets/js/index.js"></script>
+
+
+
